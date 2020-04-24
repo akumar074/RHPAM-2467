@@ -16,6 +16,8 @@ public class DataMaster implements java.io.Serializable {
 
 	private java.lang.String i4;
 
+	private java.lang.Short i5;
+
 	public DataMaster() {
 	}
 
@@ -51,12 +53,21 @@ public class DataMaster implements java.io.Serializable {
 		this.i4 = i4;
 	}
 
+	public java.lang.Short getI5() {
+		return this.i5;
+	}
+
+	public void setI5(java.lang.Short i5) {
+		this.i5 = i5;
+	}
+
 	public DataMaster(java.lang.String i1, java.lang.Short i2,
-			java.lang.String i3, java.lang.String i4) {
+			java.lang.String i3, java.lang.String i4, java.lang.Short i5) {
 		this.i1 = i1;
 		this.i2 = i2;
 		this.i3 = i3;
 		this.i4 = i4;
+		this.i5 = i5;
 	}
 
 }
