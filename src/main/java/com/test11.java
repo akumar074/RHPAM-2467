@@ -10,6 +10,8 @@ public class test11 implements java.io.Serializable {
 
 	private java.lang.String i1;
 
+	private java.lang.String i2;
+
 	public test11() {
 	}
 
@@ -21,8 +23,17 @@ public class test11 implements java.io.Serializable {
 		this.i1 = i1;
 	}
 
-	public test11(java.lang.String i1) {
+	public java.lang.String getI2() {
+		return this.i2;
+	}
+
+	public void setI2(java.lang.String i2) {
+		this.i2 = i2;
+	}
+
+	public test11(java.lang.String i1, java.lang.String i2) {
 		this.i1 = i1;
+		this.i2 = i2;
 	}
 
 }
