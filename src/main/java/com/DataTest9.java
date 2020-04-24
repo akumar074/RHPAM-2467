@@ -6,12 +6,23 @@ package com;
 
 public class DataTest9 implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public DataTest9() {
-    }
+	private java.lang.String i1;
 
+	public DataTest9() {
+	}
 
+	public java.lang.String getI1() {
+		return this.i1;
+	}
 
+	public void setI1(java.lang.String i1) {
+		this.i1 = i1;
+	}
+
+	public DataTest9(java.lang.String i1) {
+		this.i1 = i1;
+	}
 
 }
