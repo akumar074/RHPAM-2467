@@ -12,6 +12,8 @@ public class DataTest2 implements java.io.Serializable {
 
 	private java.lang.String i2;
 
+	private java.lang.String i3;
+
 	public DataTest2() {
 	}
 
@@ -31,9 +33,19 @@ public class DataTest2 implements java.io.Serializable {
 		this.i2 = i2;
 	}
 
-	public DataTest2(java.lang.String i1, java.lang.String i2) {
+	public java.lang.String getI3() {
+		return this.i3;
+	}
+
+	public void setI3(java.lang.String i3) {
+		this.i3 = i3;
+	}
+
+	public DataTest2(java.lang.String i1, java.lang.String i2,
+			java.lang.String i3) {
 		this.i1 = i1;
 		this.i2 = i2;
+		this.i3 = i3;
 	}
 
 }
